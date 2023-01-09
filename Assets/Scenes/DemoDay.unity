@@ -3639,7 +3639,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 597657717}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4882801322305221464, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_Name
@@ -3647,11 +3647,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8473637281567703371, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8473637281567703371, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.20673263
+      value: 0.20673269
       objectReference: {fileID: 0}
     - target: {fileID: 8473637281567703371, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_LocalScale.y
@@ -3659,7 +3659,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8473637281567703371, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.20673263
+      value: 0.20673269
       objectReference: {fileID: 0}
     - target: {fileID: 8473637281567703371, guid: c87fa0d6180121d42a09aff518a98e33, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4622,7 +4622,6 @@ Transform:
   - {fileID: 49976482}
   - {fileID: 468559977}
   - {fileID: 76279292}
-  - {fileID: 1932413616}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -13569,7 +13568,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee0fd41c2be610e41a08816d4d731e76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 10
+  forwardSpeed: 0
+  laneDistance: 2.5
+--- !u!143 &1932413618
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932413615}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1932933821
 PrefabInstance:
   m_ObjectHideFlags: 0
