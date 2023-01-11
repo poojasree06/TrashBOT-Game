@@ -6,7 +6,11 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     RecentlyUsedSceneGuid-0:
+<<<<<<< HEAD
       value: 5650515553030f5a5f0d592646215c44474e4f2e7b2a7669297c1832b7e6356b
+=======
+      value: 5a5757560101590a5d0c0e24427b5d44434e4c7a7b7a23677f2b4565b7b5353a
+>>>>>>> parent of 09f7257 (Merge branch 'main' of https://github.com/GNamithaReddy/Team7-Game-Dev)
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 5001000750025d030f59547612200d4447151d792f787e347b7e4d62b1e26669
