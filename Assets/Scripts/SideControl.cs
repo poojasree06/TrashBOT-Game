@@ -6,8 +6,8 @@ public class SideControl : MonoBehaviour
 {
 
     // max left and right sides a player can move in the water
-    public static float leftSide=280f;
-    public static float rightSide=1100f;
+    public static float leftSide=335f;
+    public static float rightSide=550f;
     public  float internalLeft;
     public  float internalRight;
     void Update()

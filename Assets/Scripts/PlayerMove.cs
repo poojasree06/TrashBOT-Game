@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     
-    public float moveSpeed=100f; // player speed to move forward
-    public float leftRightSpeed=210f; // player speed to move left and right
+    public float moveSpeed=50f; // player speed to move forward
+    public float leftRightSpeed=150f; // player speed to move left and right
     void Start()
     {
         Debug.Log("Game Started");
