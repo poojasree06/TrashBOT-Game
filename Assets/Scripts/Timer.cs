@@ -30,7 +30,7 @@ public class Timer : MonoBehaviour
     else
     {
         
-        Flash();
+        timeText.text = "00:00";
         
     }
     }
