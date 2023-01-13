@@ -8,10 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: cfd677ccccf54a64eab0cc30491d47ef
-  - enabled: 0
+  - enabled: 1
+    path: Assets/Scenes/Story.unity
+    guid: 48d7a46410053894c84db1dfb6abda64
+  - enabled: 1
     path: Assets/Scenes/RiverScene.unity
     guid: 954aee4e8ef127e4a8722ccae8d815d0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/DemoDay.unity
     guid: 9fff6c669681ee04592603042d7aafe1
+  - enabled: 1
+    path: Assets/Scenes/GameExit.unity
+    guid: af433f3dfd451204e9dcff79ed713929
   m_configObjects: {}
