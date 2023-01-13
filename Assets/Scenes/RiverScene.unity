@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -192,6 +192,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ac31fb474aead74ab0101d0d6546c52, type: 3}
+--- !u!1 &12678914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 354359337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &18355983 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -234,6 +239,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4214740600626620, guid: b09191006fa14d64d97df0de8b286d1f, type: 3}
   m_PrefabInstance: {fileID: 2135705540}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &21872502
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21872494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &21872503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 21872494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3539ec586cfb2a64ba3e4ca4e2e29f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
 --- !u!1 &23543215
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,6 +416,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -600,11 +636,35 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 1088858741}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &73895389 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1392678296}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &76402072 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 1452611316}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &91404319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 661067827}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &91404323
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91404319}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.25
+  m_Direction: 1
+  m_Center: {x: -0.00000011920929, y: 8.3266727e-16, z: 0.000000009313226}
 --- !u!1 &99591546
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +810,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!1001 &106550434
@@ -762,6 +826,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -821,6 +889,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+--- !u!1 &112954100 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 3746666523359549796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &114945703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1153,151 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!1 &159596900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1134275553}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &185045623 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 870259642}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &186711422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186711425}
+  - component: {fileID: 186711424}
+  - component: {fileID: 186711423}
+  m_Layer: 5
+  m_Name: Score
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &186711423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186711422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'SCORE: 0'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 30
+  m_fontSizeBase: 30
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &186711424
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186711422}
+  m_CullTransparentMesh: 1
+--- !u!224 &186711425
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186711422}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 351606463}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -100, y: -25}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &189638499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1375,6 +1593,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &237494128 stripped
@@ -1464,8 +1686,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278321666
+  m_fontColor: {r: 0.009316067, g: 0.009433985, b: 0.009291586, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1482,8 +1704,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1537,6 +1759,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 354359337}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &263552012
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 12678914}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -1.6546773e-16, y: 0.0000000037252903, z: 0.00000011920929}
 --- !u!1001 &308818738
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1673,6 +1909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &335860492 stripped
@@ -1692,6 +1932,7 @@ GameObject:
   - component: {fileID: 351606462}
   - component: {fileID: 351606461}
   - component: {fileID: 351606460}
+  - component: {fileID: 351606464}
   m_Layer: 5
   m_Name: canvas
   m_TagString: Untagged
@@ -1773,6 +2014,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 243380237}
+  - {fileID: 186711425}
   m_Father: {fileID: 0}
   m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1781,6 +2023,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &351606464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 351606459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6580f411c492bdb4ca0ab28a86359767, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 186711423}
 --- !u!4 &352766556 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6352184942146126214, guid: 47ded181e73460047bae5118c0254d3e, type: 3}
@@ -1796,6 +2051,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -1929,6 +2188,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8205d36f5448674429e263cd4800fd0a, type: 3}
+--- !u!1 &375736302 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 760556560}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &385470420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2104,6 +2368,49 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 50
   leftRightSpeed: 210
+--- !u!114 &423112515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423112509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3539ec586cfb2a64ba3e4ca4e2e29f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coins: 0
+--- !u!54 &423112516
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423112509}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!136 &423112517
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 423112509}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 135
+  m_Height: 260
+  m_Direction: 1
+  m_Center: {x: -69733.49, y: -12130.418, z: -7138.245}
 --- !u!1 &424986016
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,6 +2460,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -2330,6 +2641,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &488065577 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 1088858741}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &488065580
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488065577}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -1.110223e-16, y: -0.000000055879354, z: -1.769418e-16}
 --- !u!1 &494657841
 GameObject:
   m_ObjectHideFlags: 0
@@ -2449,6 +2779,25 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &499172412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
+  m_PrefabInstance: {fileID: 1477974518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &499172418
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 499172412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0000034517236, y: 0.39127696, z: 0.00000040978193}
 --- !u!1001 &510008909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2573,12 +2922,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frappe B (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
 --- !u!4 &518025174 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 1212980276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &531927347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 704767499}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &563547099
 PrefabInstance:
@@ -2590,6 +2948,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -2729,6 +3091,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coffee Cup C
       objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -2780,11 +3146,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8210548377922851428, guid: 3f999b6beafe9d249bf9c3a91ff26ff6, type: 3}
   m_PrefabInstance: {fileID: 2088663161}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &593370595 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 804774060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &593370599
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 593370595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.09
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0.00000047683716, y: -0.000000115484, z: -4.707642e-16}
 --- !u!4 &598469986 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 1392678296}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &598469989
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73895389}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.000000059604645, y: 0.000000014901161, z: 0.000000009313226}
 --- !u!1001 &616199248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2840,6 +3239,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frappe B (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
 --- !u!1001 &618647691
@@ -2852,6 +3255,10 @@ PrefabInstance:
     - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_Name
       value: Coffee Cup C (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
@@ -2954,6 +3361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frappe B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
 --- !u!4 &655600070 stripped
@@ -2961,6 +3372,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 760556560}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &655600073
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375736302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000046752393}
 --- !u!1001 &658810169
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3166,6 +3591,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &664044022 stripped
@@ -3263,6 +3692,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chips_Bag
       objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -3326,6 +3759,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 704767499}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &704767503
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531927347}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0.00000023841858, y: 0.00000012293458, z: 9.020562e-17}
 --- !u!1 &725776902
 GameObject:
   m_ObjectHideFlags: 0
@@ -3359,6 +3806,11 @@ Transform:
   m_Father: {fileID: 424986017}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &734147111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1235518855}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &735115351
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3369,6 +3821,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -3428,6 +3884,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+--- !u!1 &742521218 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 3444659505527676199}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &743029807
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3564,6 +4025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &766013311 stripped
@@ -3638,12 +4103,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &772540354 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 1945138863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &776424352 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1979742101}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &779515296
 GameObject:
@@ -3678,6 +4152,25 @@ Transform:
   m_Father: {fileID: 424986017}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &787510155 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1212980276}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &787510158
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787510155}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.000000009313226}
 --- !u!4 &792582090 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -3762,6 +4255,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -4122,6 +4619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coffee Cup C (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -4173,6 +4674,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 870259642}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &870259646
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185045623}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.00005078621, y: 0.24499114, z: -0.00010536748}
 --- !u!4 &870488927 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
@@ -4188,6 +4703,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -4268,6 +4787,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coffee Cup C
       objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -4319,6 +4842,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5023827496289240853, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
   m_PrefabInstance: {fileID: 1170637478}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &929548852 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1581138321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &929548856
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929548852}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.4
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: 0.00005030788, y: 0.24499127, z: -0.000101551865}
 --- !u!4 &947244383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 455957966157736352, guid: decec03a9de484948b79da6219847d52, type: 3}
@@ -4328,6 +4870,16 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5142532879768850087, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
   m_PrefabInstance: {fileID: 189638499}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &955259810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1391915335}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &963031532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1149173732}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &974771178 stripped
 Transform:
@@ -4487,11 +5039,44 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 618647691}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1032107486 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1353723208}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1032107490
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032107486}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.05
+  m_Height: 0.25
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.000000009313226}
 --- !u!4 &1038779934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 1235518855}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1038779937
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734147111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.00000011920929, y: 0.00000011920929, z: 0.000000039115548}
 --- !u!4 &1069391831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5142532879768850087, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
@@ -4507,6 +5092,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -4566,6 +5155,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+--- !u!1 &1077137726 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1984360418}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1077388306 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373080667063482959, guid: 8205d36f5448674429e263cd4800fd0a, type: 3}
@@ -4650,6 +5244,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -4896,6 +5494,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 1984360418}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1121720000
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1077137726}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.00000011920929, z: -0.00000005029142}
 --- !u!1 &1126569140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4995,6 +5607,10 @@ PrefabInstance:
     - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
       propertyPath: m_Name
       value: Wine_Bottle (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -5147,6 +5763,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coffee Cup C (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -5198,6 +5818,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 1149173732}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1149173736
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963031532}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.000049831044, y: 0.24499115, z: -0.000101551865}
+--- !u!1 &1153534422 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 1070431072}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1153534425
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1153534422}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -3.330669e-16, y: 0.0000000037252907, z: -0.000000029802322}
+--- !u!1 &1164145729 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 4811380287111841794}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1167142752 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 103866278}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1167142755
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167142752}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.000000059604645, y: 0, z: -0.00000046752393}
 --- !u!1001 &1170637478
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5272,6 +5949,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 1979742101}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1187463304
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776424352}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.000049354207, y: 0.24499151, z: -0.000101551865}
 --- !u!1001 &1193956579
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5445,6 +6136,10 @@ PrefabInstance:
     - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
       propertyPath: m_Name
       value: Wine_Bottle (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -5766,6 +6461,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!1 &1257045939
@@ -5921,6 +6620,25 @@ Transform:
   m_Father: {fileID: 114945704}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1285569470 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 879750857}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1285569473
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1285569470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 1.2869183e-17, y: -0.000000055879354, z: -2.5707937e-16}
 --- !u!1 &1306155824
 GameObject:
   m_ObjectHideFlags: 0
@@ -6134,6 +6852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &1366686231 stripped
@@ -6213,6 +6935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!1001 &1392678296
@@ -6281,6 +7007,10 @@ PrefabInstance:
     - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
       propertyPath: m_Name
       value: Wine_Bottle (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -6491,6 +7221,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d85f77d368a7cb74d88aeccc3c5a5348, type: 3}
+--- !u!1 &1439622574 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 1924221304}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1439622577
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1439622574}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.000000059604645, y: -0.000000029802322, z: 0.0000000093132275}
 --- !u!1001 &1452611316
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6501,6 +7250,10 @@ PrefabInstance:
     - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_Name
       value: Coffee Cup C (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
@@ -6553,6 +7306,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5142532879768850087, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
   m_PrefabInstance: {fileID: 1088677709}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1466420043 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 735115351}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1467696737 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -6573,6 +7331,10 @@ PrefabInstance:
     - target: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
       propertyPath: m_Name
       value: Soda bottle Glass A
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 6614411863389308305, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
       propertyPath: m_RootOrder
@@ -6699,6 +7461,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8205d36f5448674429e263cd4800fd0a, type: 3}
+--- !u!1 &1558534153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1635393946}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1558534156
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1558534153}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.000049831044, y: 0.24499163, z: -0.000101551865}
 --- !u!4 &1561874266 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
@@ -6714,6 +7495,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -6778,6 +7563,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 1565591101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1578500734 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 1945138863}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1578500737
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578500734}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -8.8684455e-17, y: 0.000000033527613, z: 5.2923902e-17}
 --- !u!1001 &1581138321
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6788,6 +7592,10 @@ PrefabInstance:
     - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_Name
       value: Coffee Cup C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
@@ -6845,6 +7653,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -6909,10 +7721,34 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 735115351}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1591938365
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466420043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0.000000059604645, y: 0.000000063329935, z: 0.00000008940697}
+--- !u!1 &1597775281 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 1583289388}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1601356184 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5614180682871420595, guid: 2196e66c52d25ac469e55fb8f4d54d4a, type: 3}
   m_PrefabInstance: {fileID: 1422650168}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1602004376 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
+  m_PrefabInstance: {fileID: 2017826432}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1605072124
 GameObject:
@@ -7002,6 +7838,10 @@ PrefabInstance:
     - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_Name
       value: Coffee Cup C (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
@@ -7123,6 +7963,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 1583289388}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1638972354
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597775281}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0.0000009536743, y: 0.0000000037252903, z: -1.110223e-16}
 --- !u!1001 &1649553914
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7208,6 +8062,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coffee Cup C (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -7259,6 +8117,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 1665467035}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1678080062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 516671438}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1678080066
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678080062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0037419498, y: 0.37249324, z: -0.0026400462}
 --- !u!1001 &1689566863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7328,6 +8205,49 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c00ecfa9e008e304ca87beda15e69f43, type: 3}
+--- !u!1 &1694145101 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 1565591101}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1694145104
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1694145101}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.0000009536743, y: 0.00000024214387, z: -2.7755576e-17}
+--- !u!1 &1700041477 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 631932689}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1700041481
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700041477}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0037419386, y: 0.37249324, z: -0.0026400462}
+--- !u!1 &1708532651 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
+  m_PrefabInstance: {fileID: 600525406827740566}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1709682210 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
@@ -7407,11 +8327,73 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1723279341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 1905259698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1723279345
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723279341}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0037419498, y: 0.37249324, z: -0.0026400462}
+--- !u!1 &1746910959 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1386533866360238747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1748552351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5023827496289240853, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
   m_PrefabInstance: {fileID: 1824287737}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1750102130 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 771803012}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1750102133
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750102130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 6.938894e-17, y: -0.000000059604645, z: 0.000000009313225}
+--- !u!1 &1768405254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1665467035}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1768405257
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768405254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.000049354207, y: 0.24499127, z: -0.000101551865}
 --- !u!4 &1788600341 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5142532879768850087, guid: 5983c8a04c0e73047a6c860b9cd9aaad, type: 3}
@@ -7477,8 +8459,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frappe B (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+--- !u!1 &1804252489 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 616199248}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1804252493
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804252489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0037419498, y: 0.37249324, z: -0.0026400462}
+--- !u!1 &1809661880 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 921213454}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1824287737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7548,6 +8558,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a79279818571b6848a9ccb8dcb36dd2c, type: 3}
+--- !u!1 &1840463539 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 229203454}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1840463542
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840463539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.000000059604645, y: 0, z: 0.000000009313226}
 --- !u!1001 &1841840111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7671,6 +8700,10 @@ PrefabInstance:
     - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
       propertyPath: m_Name
       value: Frappe B
+      objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
@@ -7803,6 +8836,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frappe B (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
 --- !u!1001 &1924221304
@@ -7872,6 +8909,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &1929833453 stripped
@@ -7884,6 +8925,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 1391915335}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1938380926
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955259810}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.000000059604645, z: 0.000000009313226}
 --- !u!1001 &1945138863
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7894,6 +8949,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -7958,6 +9017,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1567778426036665178, guid: c00ecfa9e008e304ca87beda15e69f43, type: 3}
   m_PrefabInstance: {fileID: 1689566863}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1962121609 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+  m_PrefabInstance: {fileID: 308903489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1962121612
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962121609}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.000000059604645, y: 0, z: 0.000000009313226}
 --- !u!1001 &1969239715
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8027,6 +9105,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b87c30b9056d0fb4dbb257b188a32501, type: 3}
+--- !u!1 &1975560905 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 430199926}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1975560908
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975560905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 5.551115e-17, y: -0.00000008568168, z: -2.4980018e-16}
 --- !u!4 &1976888470 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373080667063482959, guid: 8205d36f5448674429e263cd4800fd0a, type: 3}
@@ -8042,6 +9139,10 @@ PrefabInstance:
     - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_Name
       value: Coffee Cup C (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
@@ -8156,6 +9257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &1992939467 stripped
@@ -8163,6 +9268,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 921213454}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1992939470
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1809661880}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.00005006215, y: 0.24499068, z: -0.000101551865}
 --- !u!1 &1995664724
 GameObject:
   m_ObjectHideFlags: 0
@@ -8366,6 +9485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Soda bottle Glass A
       objectReference: {fileID: 0}
+    - target: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     - target: {fileID: 6614411863389308305, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -8417,6 +9540,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6614411863389308305, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
   m_PrefabInstance: {fileID: 2017826432}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2017826438
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1602004376}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0000035113283, y: 0.39127696, z: -0.0000034049153}
 --- !u!1 &2037636149
 GameObject:
   m_ObjectHideFlags: 0
@@ -8495,6 +9632,25 @@ Terrain:
   m_GroupingID: 0
   m_RenderingLayerMask: 1
   m_AllowAutoConnect: 1
+--- !u!1 &2037861783 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 42030812}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2037861786
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2037861783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.00000047683716, y: -0.000000026077032, z: -4.434423e-16}
 --- !u!1001 &2057604753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8643,6 +9799,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 1134275553}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2083036666
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159596900}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.000000009313226}
 --- !u!1001 &2084746127
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8786,6 +9956,82 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f999b6beafe9d249bf9c3a91ff26ff6, type: 3}
+--- !u!1 &2089407952 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 567523904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2089407956
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2089407952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: 0.000049831044, y: 0.24499115, z: -0.000101551865}
+--- !u!1 &2092260771 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 1851999148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2092260775
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092260771}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0037419498, y: 0.37249324, z: -0.0026400462}
+--- !u!1 &2104096576 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 1452611316}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2104096579
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2104096576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.00005030788, y: 0.24499115, z: -0.000099644516}
+--- !u!1 &2124994659 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 563547099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2124994662
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124994659}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 3.8857806e-16, y: 0.00000012293458, z: 0.000000059604645}
 --- !u!1001 &2135705540
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8871,6 +10117,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b09191006fa14d64d97df0de8b286d1f, type: 3}
+--- !u!1 &2136837404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+  m_PrefabInstance: {fileID: 106550434}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2136837407
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136837404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -1.7434426e-16, y: 0.0000000037252907, z: -0.000000029802322}
+--- !u!1 &2139070886 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+  m_PrefabInstance: {fileID: 1790275421}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2139070890
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139070886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0037419498, y: 0.37249324, z: -0.0026400462}
+--- !u!1 &2144020478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+  m_PrefabInstance: {fileID: 618647691}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &2144020481
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144020478}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.000050286024, y: 0.24499118, z: -0.000101551406}
 --- !u!4 &2146718543 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373080667063482959, guid: 8205d36f5448674429e263cd4800fd0a, type: 3}
@@ -8886,6 +10189,10 @@ PrefabInstance:
     - target: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
       propertyPath: m_Name
       value: Soda bottle Glass A
+      objectReference: {fileID: 0}
+    - target: {fileID: 5800860788227006251, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 6614411863389308305, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
       propertyPath: m_RootOrder
@@ -8938,6 +10245,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5896694664321626085, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
   m_PrefabInstance: {fileID: 4811380287111841794}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1373651139702728682
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164145729}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0.000000009313226}
 --- !u!1001 &1386533866360238747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8948,6 +10269,10 @@ PrefabInstance:
     - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_Name
       value: Coffee Cup C
+      objectReference: {fileID: 0}
+    - target: {fileID: 365405486943269949, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
       propertyPath: m_RootOrder
@@ -9000,6 +10325,20 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1034137922553196167, guid: 233d40e4b0dbf3a40b75e20ab970a62a, type: 3}
   m_PrefabInstance: {fileID: 1386533866360238747}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2117830655574826015
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1746910959}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 0.7
+  m_Direction: 1
+  m_Center: {x: 0.00005030788, y: 0.24499092, z: -0.000101551865}
 --- !u!1001 &3444659505527676199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9055,6 +10394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Frappe B
       objectReference: {fileID: 0}
+    - target: {fileID: 5192928855137082373, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
 --- !u!1001 &3746666523359549796
@@ -9067,6 +10410,10 @@ PrefabInstance:
     - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_Name
       value: Chips_Bag
+      objectReference: {fileID: 0}
+    - target: {fileID: 5764938362612929915, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
+      propertyPath: m_TagString
+      value: waste
       objectReference: {fileID: 0}
     - target: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
       propertyPath: m_RootOrder
@@ -9169,6 +10516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wine_Bottle
       objectReference: {fileID: 0}
+    - target: {fileID: 5897741830048359657, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
+      propertyPath: m_TagString
+      value: waste
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7e4c748bcd166e489aba5cf5ee7d207, type: 3}
 --- !u!4 &6025361269163522055 stripped
@@ -9176,13 +10527,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6614411863389308305, guid: b199d5e2710e02a459d7145948c20d07, type: 3}
   m_PrefabInstance: {fileID: 600525406827740566}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &6025361269163522060
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708532651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.2
+  m_Height: 0.9
+  m_Direction: 1
+  m_Center: {x: -0.0000032729097, y: 0.39127696, z: 0.00000040978193}
 --- !u!4 &7201891064141996391 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5768148611054434307, guid: 1e39001c187a7e6449bc4e6e532a4b97, type: 3}
   m_PrefabInstance: {fileID: 3746666523359549796}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &7201891064141996394
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 112954100}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.04
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.0000000037252903, z: 0}
 --- !u!4 &7824668428261940120 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4853523512119396031, guid: 75aabea4e822e0442ad08312224996f2, type: 3}
   m_PrefabInstance: {fileID: 3444659505527676199}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &7824668428261940123
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742521218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.03
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: -0.0037419498, y: 0.37249348, z: -0.0026400462}
