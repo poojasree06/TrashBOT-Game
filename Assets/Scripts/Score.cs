@@ -10,8 +10,8 @@ public class Score : MonoBehaviour
     public TextMeshProUGUI scoreText;
     Timer time;
     [SerializeField] GameObject Timer;
-     int score = 0;
-     int goal=30;
+    public int score = 0;
+    public int goal=30;
 
      private void Awake()
      {
