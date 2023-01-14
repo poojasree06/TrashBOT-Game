@@ -6,12 +6,13 @@ using TMPro;
 using UnityEngine.SceneManagement;
 
 public class Score : MonoBehaviour
-{public static Score instance;
+{
+    public static Score instance;
     public TextMeshProUGUI scoreText;
     Timer time;
     [SerializeField] GameObject Timer;
     public int score = 0;
-    public int goal=30;
+    public int goal=10;
 
      private void Awake()
      {
@@ -27,11 +28,8 @@ public class Score : MonoBehaviour
     public void AddPoint()
     {
         score += 1; 
-        if(score == goal)
-        {
-          SceneManager.LoadScene("GameExit" , LoadSceneMode.Single);
-        }
         scoreText.text = "SCORE: "+score.ToString();
     }
+
 
 }

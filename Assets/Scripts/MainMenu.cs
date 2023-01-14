@@ -7,7 +7,7 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()  // onclicking the playgame, displaying the story scene
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); 
+        SceneManager.LoadScene("Story"); 
     }
 
     public void ExitGame(){  // Exit from the game

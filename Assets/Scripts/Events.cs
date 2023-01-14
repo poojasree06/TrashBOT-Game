@@ -5,7 +5,7 @@ public class Events : MonoBehaviour
 {
     public void RestartGame()
     {
-        SceneManager.LoadScene("RiverScene");
+        SceneManager.LoadScene("Level01");
     }
 
     public void QuitGame()
