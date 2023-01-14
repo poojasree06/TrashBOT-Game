@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Story.unity
     guid: 48d7a46410053894c84db1dfb6abda64
   - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 5259345c60193dd4f85aa5db6fed65c2
+  - enabled: 1
     path: Assets/Scenes/RiverScene.unity
     guid: 954aee4e8ef127e4a8722ccae8d815d0
   - enabled: 0

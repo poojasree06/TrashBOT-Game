@@ -8,6 +8,6 @@ public class Story : MonoBehaviour
  
  void OnEnable()
  {
-    SceneManager.LoadScene("RiverScene" , LoadSceneMode.Single);
+    SceneManager.LoadScene("LevelSelect" , LoadSceneMode.Single);
  }
 }
