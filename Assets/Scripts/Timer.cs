@@ -21,7 +21,6 @@ public class Timer : MonoBehaviour
     // {
     //     ResetTimer();
     // }
-
     void Update()
     {   if(timer > 0){
         timer -= Time.deltaTime;
@@ -34,6 +33,15 @@ public class Timer : MonoBehaviour
         
     }
     }
+//    public float getTime(){
+//      if(timer > 0){
+//         timer -= Time.deltaTime;
+//         UpdateTimerDisplay(timer);
+//         return timer;
+//     }
+//     else
+//     {return 0;}
+//    }
 
     // private void ResetTimer()
     // {

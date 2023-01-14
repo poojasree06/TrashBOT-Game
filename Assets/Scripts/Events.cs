@@ -5,11 +5,12 @@ public class Events : MonoBehaviour
 {
     public void RestartGame()
     {
-        SceneManager.LoadScene("DemoDay");
+        SceneManager.LoadScene("RiverScene");
     }
 
     public void QuitGame()
     {
-        Application.Quit();
+       
+        SceneManager.LoadScene("MainMenu");
     }
 }
