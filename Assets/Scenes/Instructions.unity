@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -685,8 +685,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Go Back
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e5d2cc2e5f6d3bf458518374702801a4, type: 2}
-  m_sharedMaterial: {fileID: -1151080209591742781, guid: e5d2cc2e5f6d3bf458518374702801a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
+  m_sharedMaterial: {fileID: -8341748958051013358, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -710,8 +710,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 22
-  m_fontSizeBase: 22
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -945,8 +945,8 @@ MonoBehaviour:
     minute.\nThe player must gather \n10 items in level-1\n20 items in level-2\n30
     items in level-3\n40 items in level-4\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: e5d2cc2e5f6d3bf458518374702801a4, type: 2}
-  m_sharedMaterial: {fileID: -1151080209591742781, guid: e5d2cc2e5f6d3bf458518374702801a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
+  m_sharedMaterial: {fileID: -8341748958051013358, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -970,8 +970,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
