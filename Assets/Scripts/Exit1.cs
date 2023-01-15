@@ -43,7 +43,7 @@ public class Exit1 : MonoBehaviour
       PlayerPrefs.SetInt("levelReached",levelToUnlock);
       int a=PlayerPrefs.GetInt("levelReached",1);
       if(a==4){
-        SceneManager.LoadScene("LevelSelect" , LoadSceneMode.Single);
+        SceneManager.LoadScene("LevelCompleted" , LoadSceneMode.Single);
       }else{
         SceneManager.LoadScene("LevelWon" , LoadSceneMode.Single);
       }

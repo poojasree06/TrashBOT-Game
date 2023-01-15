@@ -85,7 +85,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -248,23 +248,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 98690000
       m_LastClickedID: 0
-      m_ExpandedIDs: 6a08faff060efaff440efaff520ffaff801bfaff5a23faffa825faff2c2dfaffe4fffaffc809fbff9014fbff101ffbffd22afbff9c34fbff9c3efbff5248fbff7252fbffd65cfbff3267fbff0271fbfffe7bfbff488dfbff1e97fbff42a3fbff12b3fbff18bdfbff06c7fbff24d1fbff0cdbfbffca1afcfff224fcff6839fcfff642fcff0e5dfcffaaaefcffcccefcff38d9fcff9cf7fcff7cfdfcffee13fdff6c1dfdff2a26fdff6828fdff9c33fdff3c36fdff3c56fdff6660fdffb46afdff3476fdff6080fdff848afdff4095fdff92dbfdfff407feff040afeff540dfeffa027feffb4d7ffffd8daffff50e6ffffd2e8ffff10e9ffff56e9ffff1cfbffffb26b0000c46b0000e06b00002a6c00002c6d00007ec000009ac00000e4c000003c24010000300100143001001a370100a0370100483f0100523f010062400100747c0100ec7e01001c4c02000c5a0200fc670200107c0200167c02003ab70200c0be0200d4be020054d3020072d30200
+      m_ExpandedIDs: ec88f9ff2294f9ffd89ff9ffbea9f9ffccb3f9ffcabdf9ff1abef9ff02bff9ff3cbff9ffb8c0f9ffc6c0f9ffc8c9f9ffcad2f9ffccdbf9ff76e5f9ff8ee5f9ff9ae5f9fface5f9ffbce5f9ffc0eff9ffaaf7f9ff6a08faff060efaff440efaff520ffaff801bfaff5a23faffa825faff2c2dfaffe4fffaffc809fbff9014fbff101ffbffd22afbff9c34fbff9c3efbff5248fbff7252fbffd65cfbff3267fbff0271fbfffe7bfbff488dfbff1e97fbff42a3fbff12b3fbff18bdfbff06c7fbff24d1fbff0cdbfbffca1afcfff224fcff6839fcfff642fcff0e5dfcffaaaefcffcccefcff38d9fcff9cf7fcff7cfdfcffee13fdff6c1dfdff2a26fdff6828fdff9c33fdff3c36fdff3c56fdff6660fdffb46afdff3476fdff6080fdff848afdff4095fdff92dbfdfff407feff040afeff540dfeffa027feffb4d7ffffd8daffff50e6ffffd2e8ffff10e9ffff56e9ffff1cfbffffb26b0000c46b0000e06b00002a6c00002c6d00007ec000009ac00000e4c000003c24010000300100143001001a370100a0370100483f0100523f010062400100747c0100ec7e01001c4c02000c5a0200fc670200107c0200167c02003ab70200c0be0200d4be020054d3020072d302009cda0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Robo1
+        m_OriginalName: Robo1
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 196768
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 153.40002}
+    scrollPos: {x: 0, y: 213.40002}
     m_SelectedIDs: ea5c0000
     m_LastClickedID: 23786
     m_ExpandedIDs: 00000000a85c0000aa5c0000ac5c0000ae5c0000b05c0000b25c0000b45c0000b65c0000b85c0000
@@ -777,9 +777,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 98690000
+    m_LastClickedInstanceID: 27032
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -903,7 +903,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -391062
+  m_LastSelectedObjectID: -395520
 --- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -923,8 +923,8 @@ MonoBehaviour:
     y: 0
     width: 336
     height: 722.8
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
