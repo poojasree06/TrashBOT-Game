@@ -8,7 +8,7 @@ public class LevelSelector : MonoBehaviour
 {
     public Button[] levelButtons;
     void Start(){
-       PlayerPrefs.DeleteAll();
+      // PlayerPrefs.DeleteAll();
         int levelReached= PlayerPrefs.GetInt("levelReached",1); // level that player has reached 
                                                                 //default level reached is 1
         for(int i=0;i<levelButtons.Length;i++){
