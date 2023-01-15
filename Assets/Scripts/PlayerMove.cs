@@ -7,9 +7,12 @@ public class PlayerMove : MonoBehaviour
     
     public float moveSpeed=50f; // player speed to move forward
     public float leftRightSpeed=150f; // player speed to move left and right
+    public float timer = 60;
+    Score a;
     void Start()
     {
         Debug.Log("Game Started");
+         a = FindObjectOfType<Score>();
     }
 
     void Update()
@@ -27,5 +30,14 @@ public class PlayerMove : MonoBehaviour
                 transform.Translate(Vector3.right*Time.deltaTime*leftRightSpeed);
             }
         } 
+        if(timer>0){
+            timer -= Time.deltaTime;
+        }
+        else{
+            if(a.score!=a.goal){
+                moveSpeed=0;
+                leftRightSpeed=0;
+            }
+        }
     }
 }

@@ -43,11 +43,22 @@ public class Exit1 : MonoBehaviour
       PlayerPrefs.SetInt("levelReached",levelToUnlock);
       int a=PlayerPrefs.GetInt("levelReached",1);
       if(a==5){
-        SceneManager.LoadScene("LevelCompleted");
+        StartCoroutine(Completed());
       }else{
-      SceneManager.LoadScene("LevelWon");
+       StartCoroutine(LevelWon());
       }
      // obj.NextLevel(nextLevel);
     //  Score.instance.goal=20;
     }
+
+    public IEnumerator LevelWon(){
+      yield return new WaitForSeconds(2f);
+     SceneManager.LoadScene("LevelWon");
+    }
+
+    public IEnumerator Completed(){
+      yield return new WaitForSeconds(2f);
+      SceneManager.LoadScene("LevelCompleted");
+    }
+
 }

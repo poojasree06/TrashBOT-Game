@@ -1,13 +1,15 @@
 using UnityEngine;
 using TMPro;
+using System.Collections;
 using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {   
     // private float timerDuration = 3f * 60f;
 
-    public float timer = 30;
+    public float timer = 60;
 
     Score a;
+
     void Start(){
     a = FindObjectOfType<Score>();
     }
@@ -23,12 +25,19 @@ public class Timer : MonoBehaviour
     else
     {
         if(a.score!=a.goal){
-            SceneManager.LoadScene("GameExit" , LoadSceneMode.Single);
+            Debug.Log("Change Color");
+            StartCoroutine(ChangeColor());
         }
         timeText.text = "00:00";
         
     }
     }
+
+    public IEnumerator ChangeColor(){
+      yield return new WaitForSeconds(2f);
+     SceneManager.LoadScene("GameExit" , LoadSceneMode.Single);
+    }
+
 
     private void UpdateTimerDisplay(float time)
     {
@@ -37,6 +46,8 @@ public class Timer : MonoBehaviour
 
        timeText.text = string.Format("{00:00}:{1:00}",minutes, seconds);
     }
+
+
 
     private void Flash()
     {
