@@ -41,7 +41,12 @@ public class Exit1 : MonoBehaviour
     public void WinLevel(){
       Debug.Log("Level Won!");
       PlayerPrefs.SetInt("levelReached",levelToUnlock);
-      SceneManager.LoadScene("LevelWon" , LoadSceneMode.Single);
+      int a=PlayerPrefs.GetInt("levelReached",1);
+      if(a==4){
+        SceneManager.LoadScene("LevelSelect" , LoadSceneMode.Single);
+      }else{
+        SceneManager.LoadScene("LevelWon" , LoadSceneMode.Single);
+      }
      // obj.NextLevel(nextLevel);
     //  Score.instance.goal=20;
     }
