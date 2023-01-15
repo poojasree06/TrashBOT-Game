@@ -14,4 +14,8 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Game Ended");
     }
+
+    public void Reload(){
+        PlayerPrefs.DeleteAll();
+    }
 }
