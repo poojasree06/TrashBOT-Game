@@ -229,18 +229,18 @@ MonoBehaviour:
       m_ExpandedIDs: fa29f6fff632f6ff2c41f6ff8e4ff6ff0a5ef6ff1c7df6ffd686f6ff9290f6ff9492f6ff8498f6ffeaadf6ff68b2f6ffe4b3f6ff8cb7f6ff80bbf6ffe4eaf6ff5031f7ffc033f7ffbe48f7ff7077f7ffa677f7ff7287f7ff8488f7ffd288f7ffd08bf7ff108ef7ff3a92f7ff7cc1f7ffd2c1f7ff38cef7ff24cff7ff44cff7ff30d0f7ff76d1f7ff1ad4f7ff7cd4f7ff88a1f8ff36a2f8ff00a3f8ffc6acf8ff04b8f8ff006ef9fff278f9ff5479f9ffa279f9ff8a83f9ffe083f9ff2a84f9ff7484f9ffd084f9ffa28ef9ff8a98f9ff72a2f9ff5aacf9ff42b6f9ff46c0f9ff7cddf9ffa4e4f9fff0e8f9ffd6f2f9ff2cfdf9ff3807faff1611fafff41afaffd224faffb02efaff6e38faff4c42faff2a4cfaff0856faffe65ffaffc469faffa2d3fbff1ad6fbff88d8fbff20dafbff4cdbfbffb4dbfbffdc0dfeffb02effffbe36ffff2c98ffffce99ffff9af6ffffb6faffff765c00007c5c00005e5f0000705f00008c5f0000d65f0000a6700000ba700000e6840000148500001a8500002c8500007cad0000c4ad0000daaf000004b00000e0b00000e4b000001eb10000f63a0100d23d0100903e01005a6c0200806f0200507202003ae30200700f0300543203006832030000620300186203001e620300326303006a630300546503002e66030054660300586603008a660300c0670300ea820300f4820300c0830300c6830300d08303001e840300d2900300e4900300f69003001a91030054910300f4d7030072d803003ad903006ad9030070d903007ad9030082d9030064e7030094e703009ae70300a4e70300ace70300b6e703001ce9030034e9030044e9030058e90300e4f80300a407040094150400842304008030040098300400aa300400b2300400bc300400c6300400e0300400ec3004001a310400b6320400c0320400
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Robo1
+        m_OriginalName: Robo1
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 196768
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 5}
       m_SearchString: 
