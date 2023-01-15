@@ -11,6 +11,8 @@ public class Exit1 : MonoBehaviour
     public GameObject GameExit;
     public string nextLevel="Level02";
     public int levelToUnlock=2;
+
+
     void Start()
     {
         isOver=false;
@@ -39,7 +41,8 @@ public class Exit1 : MonoBehaviour
     public void WinLevel(){
       Debug.Log("Level Won!");
       PlayerPrefs.SetInt("levelReached",levelToUnlock);
-      SceneManager.LoadScene(nextLevel , LoadSceneMode.Single);
+      SceneManager.LoadScene("LevelWon" , LoadSceneMode.Single);
+     // obj.NextLevel(nextLevel);
     //  Score.instance.goal=20;
     }
 }
