@@ -5,6 +5,7 @@ public class Events : MonoBehaviour
 {
     public void Restart(){
         int a=PlayerPrefs.GetInt("levelReached",1);
+        Debug.Log(a);
         if(a==1){
             RestartLevel01();
         }else if(a==2){
