@@ -11,6 +11,6 @@ public class Events : MonoBehaviour
     public void QuitGame()
     {
        
-        SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("LevelSelect");
     }
 }

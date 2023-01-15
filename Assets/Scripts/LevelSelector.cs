@@ -8,7 +8,9 @@ public class LevelSelector : MonoBehaviour
 {
     public Button[] levelButtons;
     void Start(){
-        int levelReached= PlayerPrefs.GetInt("levelReached",1); // level player has reached //default level reached is 1
+       PlayerPrefs.DeleteAll();
+        int levelReached= PlayerPrefs.GetInt("levelReached",1); // level that player has reached 
+                                                                //default level reached is 1
         for(int i=0;i<levelButtons.Length;i++){
             if(i+1 > levelReached){  // if level is greater than player reached then disable
                 levelButtons[i].interactable=false;
@@ -18,5 +20,9 @@ public class LevelSelector : MonoBehaviour
     }
     public void Select (string levelName){
         SceneManager.LoadScene(levelName); 
+    }
+
+    public void GoBack(){
+         SceneManager.LoadScene("MainMenu");
     }
 }
