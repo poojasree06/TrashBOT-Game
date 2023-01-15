@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.25751197, g: 0.6904535, b: 0.8189674, a: 1}
+  m_IndirectSpecularColor: {r: 0.25705436, g: 0.6906898, b: 0.8195742, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2171,8 +2171,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'SCORE: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bfac2c580873c0b49b811325eb86fd58, type: 2}
-  m_sharedMaterial: {fileID: 488595147254491305, guid: bfac2c580873c0b49b811325eb86fd58, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
+  m_sharedMaterial: {fileID: -8341748958051013358, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2232,7 +2232,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -6.506714, w: 0.3095703}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2263,7 +2263,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.919, y: -30.5}
+  m_AnchoredPosition: {x: -125.8, y: -26.9}
   m_SizeDelta: {x: 119.8369, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &189039095
@@ -2996,8 +2996,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 00:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 45fb70bab26c0ba44a528b0580f470d4, type: 2}
-  m_sharedMaterial: {fileID: -3294481226473071420, guid: 45fb70bab26c0ba44a528b0580f470d4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
+  m_sharedMaterial: {fileID: -8341748958051013358, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -6725,7 +6725,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -59.918, y: -64.13}
+  m_AnchoredPosition: {x: -126.2, y: -61}
   m_SizeDelta: {x: 119.8368, y: 28.2608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546680101
@@ -6750,8 +6750,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'GOAL: 20'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: bfac2c580873c0b49b811325eb86fd58, type: 2}
-  m_sharedMaterial: {fileID: 488595147254491305, guid: bfac2c580873c0b49b811325eb86fd58, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
+  m_sharedMaterial: {fileID: -8341748958051013358, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
