@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -942,8 +942,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "A / <-    -    Left\nD / ->    -    Right\nEach level will last for one
-    minute.\nThe player must gather \n10 items in level-1\n20 items in level-2\n30
-    items in level-3\n40 items in level-4\n"
+    minute.\nThe player must gather \n15 items in level-1\n25 items in level-2\n35
+    items in level-3\n45 items in level-4\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}
   m_sharedMaterial: {fileID: -8341748958051013358, guid: a15dbdfb075eebf479247cc1a2f2df5d, type: 2}

@@ -21,7 +21,7 @@ public class Exit1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Score.instance.score);
+      //  Debug.Log(Score.instance.score);
         EndGame();
        /* if(isOver){
             return;
@@ -41,7 +41,12 @@ public class Exit1 : MonoBehaviour
     public void WinLevel(){
       Debug.Log("Level Won!");
       PlayerPrefs.SetInt("levelReached",levelToUnlock);
+      int a=PlayerPrefs.GetInt("levelReached",1);
+      if(a==5){
+        SceneManager.LoadScene("LevelCompleted");
+      }else{
       SceneManager.LoadScene("LevelWon");
+      }
      // obj.NextLevel(nextLevel);
     //  Score.instance.goal=20;
     }
