@@ -1828,6 +1828,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1212663183}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 186130, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: waste
@@ -2259,8 +2263,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -59.919, y: -30.5}
+  m_SizeDelta: {x: 119.8369, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &189039095
 PrefabInstance:
@@ -2953,8 +2957,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 100, y: -25}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 58, y: -30.5}
+  m_SizeDelta: {x: 88.5868, y: 39}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &243380238
 MonoBehaviour:
@@ -5009,6 +5013,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 149110715}
     m_Modifications:
     - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -6868,8 +6876,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -100, y: -64}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -59.918, y: -64.13}
+  m_SizeDelta: {x: 119.8368, y: 28.2608}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &546680101
 MonoBehaviour:
@@ -9617,6 +9625,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1212663183}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 186130, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: waste
@@ -12770,6 +12782,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 149110715}
     m_Modifications:
     - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: Untagged
       objectReference: {fileID: 0}
@@ -13147,6 +13163,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 486861533}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 186130, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: waste
@@ -15990,6 +16010,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 486861533}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 186130, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: waste
@@ -16229,6 +16253,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1212663183}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 186130, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: waste
@@ -19021,6 +19049,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 486861533}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 186130, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: waste
@@ -23407,6 +23439,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 149110715}
     m_Modifications:
+    - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 133904, guid: 30506e06c40703349b3b014b826e1a01, type: 3}
       propertyPath: m_TagString
       value: Untagged
