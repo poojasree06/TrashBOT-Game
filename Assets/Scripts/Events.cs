@@ -3,8 +3,9 @@ using UnityEngine;
 
 public class Events : MonoBehaviour
 {
-    public void Restart(){
-        int a=PlayerPrefs.GetInt("levelReached",1);
+    public void Restart()
+    {
+        int a=PlayerPrefs.GetInt("levelReached",1);        // getting level number from local disk 
         Debug.Log(a);
         if(a==1){
             RestartLevel01();

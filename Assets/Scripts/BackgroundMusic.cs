@@ -4,27 +4,23 @@ using UnityEngine;
 
 public class BackgroundMusic : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    private static BackgroundMusic instance = null;
-    public static BackgroundMusic Instance
+
+    private static BackgroundMusic instance = null;       //Created an instance for the class and made it private and later added getter function to use it in another script
+    public static BackgroundMusic Instance               // getter function to access background music
     {
         get { return instance; }
     }
 
-    void Awake()
+    void Awake()                                   // this function applies before start of the game to initialize the variables
     {
         if (instance != null && instance != this)
         {
-            Destroy(this.gameObject);
+            Destroy(this.gameObject);              // if current sound!=bg sound destroy
             return;
         }
         else
         {
-            instance = this;
+            instance = this;                       // else initialize it to current sound
         }
         DontDestroyOnLoad(this.gameObject);
     }

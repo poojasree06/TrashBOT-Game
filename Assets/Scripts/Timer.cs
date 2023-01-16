@@ -4,20 +4,20 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour
 {   
-    // private float timerDuration = 3f * 60f;
-
-    public float timer = 60;
+    
+    public float timer = 60;              // Initialize time to 60sec
 
     Score a;
 
-    void Start(){
-    a = FindObjectOfType<Score>();
+    void Start()
+    {
+    a = FindObjectOfType<Score>();           // Returns object of type Score
     }
     
     [SerializeField]
     public TextMeshProUGUI timeText;
 
-    void Update()
+    void Update()                        // Function which updates time
     {   if(timer > 0){
         timer -= Time.deltaTime;
         UpdateTimerDisplay(timer);
@@ -42,18 +42,12 @@ public class Timer : MonoBehaviour
     }
 
 
-    private void UpdateTimerDisplay(float time)
+    private void UpdateTimerDisplay(float time)                              // Function to update time apperaing on the screen as a string
     {
        float minutes = Mathf.FloorToInt(time / 60);
        float seconds = Mathf.FloorToInt(time % 60);
 
-       timeText.text = string.Format("{00:00}:{1:00}",minutes, seconds);
+       timeText.text = string.Format("{00:00}:{1:00}",minutes, seconds);      // string formatting
     }
 
-
-
-    private void Flash()
-    {
-
-    }
 }
