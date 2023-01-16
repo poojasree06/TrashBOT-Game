@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Game Ended");
     }
 
-    public void Reload(){
+    public void Reload(){       // reloading the game by resetting all the levels 
         PlayerPrefs.DeleteAll();
     }
 }

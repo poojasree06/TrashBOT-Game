@@ -4,8 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+/* selecting the levels */ 
+
 public class LevelSelector : MonoBehaviour
 {
+
     public Button[] levelButtons;
     void Start(){
        //PlayerPrefs.DeleteAll();
@@ -18,11 +21,13 @@ public class LevelSelector : MonoBehaviour
             
         }
     }
-    public void Select (string levelName){
-        SceneManager.LoadScene(levelName); 
+    public void Select (string levelName){ 
+        SceneManager.LoadScene(levelName);
+         /* by passing levelname as parameter ,it loads that level scene into the screen */
     }
 
     public void GoBack(){
          SceneManager.LoadScene("MainMenu");
+         /* going back to the main menu */
     }
 }

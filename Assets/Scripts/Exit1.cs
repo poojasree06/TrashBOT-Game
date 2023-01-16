@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+/* exit screen */
+
 public class Exit1 : MonoBehaviour
 {
-    // Start is called before the first frame update
-
+ 
     public static bool isOver;
     public GameObject GameExit;
     public string nextLevel="Level02";
@@ -18,7 +20,6 @@ public class Exit1 : MonoBehaviour
         isOver=false;
     }
 
-    // Update is called once per frame
     void Update()
     {
       //  Debug.Log(Score.instance.score);
@@ -34,22 +35,21 @@ public class Exit1 : MonoBehaviour
         if(Score.instance.score == Score.instance.goal)
         {
           isOver=true;
-       //   SceneManager.LoadScene("GameExit" , LoadSceneMode.Single);
           WinLevel();
         }
     }
     public void WinLevel(){
       Debug.Log("Level Won!");
-      PlayerPrefs.SetInt("levelReached",levelToUnlock);
-      int a=PlayerPrefs.GetInt("levelReached",1);
+      PlayerPrefs.SetInt("levelReached",levelToUnlock); /* storing the gamedata into the local disk */
+      int a=PlayerPrefs.GetInt("levelReached",1);  
       if(a==5){
         StartCoroutine(Completed());
       }else{
        StartCoroutine(LevelWon());
       }
-     // obj.NextLevel(nextLevel);
-    //  Score.instance.goal=20;
     }
+
+    /* wait for 2 seconds and show the level won scene */
 
     public IEnumerator LevelWon(){
       yield return new WaitForSeconds(2f);

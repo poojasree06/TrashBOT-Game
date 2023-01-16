@@ -10,7 +10,7 @@ public class SideControl : MonoBehaviour
     public static float rightSide=550f;
     public  float internalLeft;
     public  float internalRight;
-    void Update()
+    void Update() /* updating the left and right positions */
     {
         internalLeft =leftSide;
         internalRight=rightSide;

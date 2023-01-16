@@ -26,7 +26,7 @@ public class Timer : MonoBehaviour
     {
         if(a.score!=a.goal){
             Debug.Log("Change Color");
-            StartCoroutine(ChangeColor());
+            StartCoroutine(ChangeColor()); /* calling the Ienumerator function */
         }
         timeText.text = "00:00";
         
@@ -34,7 +34,10 @@ public class Timer : MonoBehaviour
     }
 
     public IEnumerator ChangeColor(){
-      yield return new WaitForSeconds(2f);
+      yield return new WaitForSeconds(2f); 
+
+    /* wait for 2 seconds and load the scene with gameExit scene */
+
      SceneManager.LoadScene("GameExit" , LoadSceneMode.Single);
     }
 

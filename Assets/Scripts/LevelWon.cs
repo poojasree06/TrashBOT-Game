@@ -7,7 +7,10 @@ using UnityEngine.SceneManagement;
 public class LevelWon : MonoBehaviour
 {
 
-    public void Continue(){
+    public void Continue(){  
+                   
+        /* when a player clicks continue buttion ,loading levelselect scene if the player won the level */
+
         SceneManager.LoadScene("LevelSelect" , LoadSceneMode.Single);
     }
 
