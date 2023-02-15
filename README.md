@@ -19,4 +19,11 @@ TrashBOT is a 2.5D game designed to protect marine lives by removing the trash i
 ## Hosted Online
 [Link To TrashBOT Game](https://poojasree.itch.io/trashbot "TrashBOT Game")
 
+## Contributors
+* Pooja Sree A<br>
+* Namitha Reddy G<br>
+* Manasa K<br>
+* Hemasri Sai L<br>
+
+
 
